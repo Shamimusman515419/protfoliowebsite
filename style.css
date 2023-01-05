@@ -1,0 +1,339 @@
+body {
+    background: #ffffff;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #bb8e6e59;
+}
+
+.vanber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+}
+
+.vanber h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.vanber h1 span {
+    color: #FD6E0A;
+}
+
+.vanber ul {
+    display: flex;
+
+    align-items: center;
+
+}
+
+.vanber ul li {
+    list-style: none;
+    font-size: 25px;
+    margin: 0 15px;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
+.vanber ul li button {
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #FD6E0A;
+    padding: 5px 10px;
+    outline: none;
+    width: 120px;
+    border: none;
+    border-radius: 2px;
+    transition: 0.5s;
+
+}
+
+.vanber ul li button:hover {
+    background: linear-gradient(to right, rgb(148, 1, 116), rgb(9, 9, 139));
+    color: #ffffff;
+
+}
+
+.bannner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 200px;
+
+}
+
+.bannertext h3 {
+    font-size: 25px;
+    opacity: 0.9;
+    margin: 15px 0;
+}
+
+.bannertext h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.bannertext p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    font-weight: 600;
+    color: black;
+}
+
+.buttnbannner {
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+.buttnbannner button {
+    font-size: 25px;
+    color: black;
+    margin: 5px;
+    width: 180px;
+    width: 200px;
+    outline: none;
+    margin: 10px 5px;
+    border-radius: 7px;
+    border: none;
+    color: #a30388;
+    padding: 10px 10px;
+    background-color: #FD6E0A;
+    transition: 0.5s;
+
+}
+
+.buttnbannner button:hover {
+    background: linear-gradient(to right, rgb(148, 1, 116), blue);
+    color: #ffffff;
+}
+
+.bannner {
+    background: url(./images/header_bg.png), url(./images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+.about {
+    background: #c0947442;
+    text-align: center;
+    padding: 20px 200px;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 100px auto;
+}
+
+.abouthed h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.abouthed p {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.aboutbox {
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.abouttexttext p {
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+
+}
+
+.abouttexttext h1 {
+    font-size: 18px;
+    color: black;
+
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+.slikksection {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0;
+}
+
+.whatesection {
+    padding: 20px 170px;
+}
+
+.whatesection h1 {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.whatesection p {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.slikkbox {
+    background-color: white;
+    padding: 8px !important;
+    margin: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+.slikkbox img {
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.slikkbox h3 {
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.slikkbox p {
+    font-size: 14px;
+    margin: 10px 0;
+    text-align: start;
+    font-weight: 500;
+}
+
+/* resumesection */
+.resumesection {
+    margin: 20px 180px;
+}
+
+.resumesection h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.rusemetextmain {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.Resumeboxtetxy {
+    margin: 50px 15px;
+}
+
+.Resumebox {
+    margin: 15px 2px;
+}
+
+.Resumebox h1 {
+    color: black;
+    margin: 10px 0;
+    text-align: start;
+    font-size: 31px;
+    font-weight: bold;
+}
+
+.Resumebox h4 {
+    font-size: 24px;
+    margin: 5px 0;
+    font-weight: 600;
+
+}
+
+.Resumebox p {
+    margin: 15px 0;
+    font-size: 19px;
+
+}
+
+.Resumebox h5 {
+    font-size: 22px;
+    margin: 15px 0;
+    font-weight: 500;
+}
+
+/* contact */
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 180px;
+    background-color: #fd6f0a1a;
+}
+
+.contacttext {
+    padding: 15px;
+}
+
+.contacttext h1 {
+    font-size: 45px;
+    font-weight: bold;
+    color: black;
+    margin: 25px 0;
+}
+
+.contacttext p {
+    font-size: 21px;
+    margin: 15px 0;
+}
+
+.contacttext input,
+textarea {
+    width: 400px;
+    outline: none;
+    margin: 25px 0;
+    border: none;
+    background-color: #ffffff;
+    padding: 25px 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#submit {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    width: 180px;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    outline: none;
+    margin: 10px 5px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 10px;
+    background-color: #FD6E0A;
+    transition: 0.5s;
+}
+
+#submit:hover {
+    color: #ffffff;
+
+    background: linear-gradient(to right, rgb(148, 1, 116), blue);
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p{
+    font-size: 25px;
+font-weight: 500;
+text-decoration: underline;
+margin: 55px 0;    
+}
